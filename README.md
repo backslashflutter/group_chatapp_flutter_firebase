@@ -6,13 +6,16 @@ Welcome to the master class of flutter and firebase in which we will create a ch
 
 
 ## [Watch it on YouTube](https://youtu.be/Qwk5oIAkgnY)
+ 
+ ## SETTING IT UP
+ 1. Add firbease to this project and do check the google-services.json and GoogleServices-Info.plist file
+ 2. Now run the app 
+ 
+ 
 
 
 ![App UI](gitimages/chatapp.png)
- 
- 
- 
- 
+
 Happy Learning 👍
 
 <br>
