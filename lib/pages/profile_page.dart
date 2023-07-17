@@ -1,4 +1,6 @@
-import 'package:chatapp_firebase/pages/auth/login_page.dart';
+// ignore_for_file: must_be_immutable, use_build_context_synchronously
+
+import 'package:chatapp_firebase/auth_pages/login_page.dart';
 import 'package:chatapp_firebase/pages/home_page.dart';
 import 'package:chatapp_firebase/service/auth_service.dart';
 import 'package:chatapp_firebase/widgets/widgets.dart';
