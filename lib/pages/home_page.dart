@@ -1,5 +1,7 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:chatapp_firebase/helper/helper_function.dart';
-import 'package:chatapp_firebase/pages/auth/login_page.dart';
+import 'package:chatapp_firebase/auth_pages/login_page.dart';
 import 'package:chatapp_firebase/pages/profile_page.dart';
 import 'package:chatapp_firebase/pages/search_page.dart';
 import 'package:chatapp_firebase/service/auth_service.dart';
@@ -244,7 +246,7 @@ class _HomePageState extends State<HomePage> {
                     Navigator.of(context).pop();
                   },
                   style: ElevatedButton.styleFrom(
-                      primary: Theme.of(context).primaryColor),
+                      backgroundColor: Theme.of(context).primaryColor),
                   child: const Text("CANCEL"),
                 ),
                 ElevatedButton(
@@ -266,7 +268,7 @@ class _HomePageState extends State<HomePage> {
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                      primary: Theme.of(context).primaryColor),
+                      backgroundColor: Theme.of(context).primaryColor),
                   child: const Text("CREATE"),
                 )
               ],

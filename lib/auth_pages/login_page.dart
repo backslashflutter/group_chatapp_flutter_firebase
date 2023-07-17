@@ -1,5 +1,7 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:chatapp_firebase/helper/helper_function.dart';
-import 'package:chatapp_firebase/pages/auth/register_page.dart';
+import 'package:chatapp_firebase/auth_pages/register_page.dart';
 import 'package:chatapp_firebase/pages/home_page.dart';
 import 'package:chatapp_firebase/service/auth_service.dart';
 import 'package:chatapp_firebase/service/database_service.dart';
@@ -101,7 +103,7 @@ class _LoginPageState extends State<LoginPage> {
                           width: double.infinity,
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                primary: Theme.of(context).primaryColor,
+                                backgroundColor: Theme.of(context).primaryColor,
                                 elevation: 0,
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(30))),
